@@ -77,6 +77,7 @@ h3 {
 }
 .drink-listing-line {
     background-color: var(--base-color);
+    flex: 0 0 auto;
     margin-right: 0.75rem;
     width: 0.5rem;
 }
