@@ -1,0 +1,146 @@
+/* GLOBAL STYLES */
+:root {
+    --color-gin: #5b6d36;
+    --color-vodka: #a4c4ca;
+    --color-tequila: #c6ecb9;
+    --color-whisky: #632517;
+    --base-color: #545454;
+}
+html {
+    font-size: 20px;
+    
+}
+body {
+    color: var(--base-color);
+    background-color: #f1f1f1;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25'%3E%3Cdefs%3E%3Cpattern id='pattern' width='100' height='100' viewBox='0 0 40 40' patternUnits='userSpaceOnUse' patternTransform='rotate(127)'%3E%3Crect id='pattern-background' width='400%25' height='400%25' fill='rgba(241, 241, 241,1)'%3E%3C/rect%3E%3Cpath filter='url(%23filter1pattern)' fill='rgba(203, 213, 224,1)' d='M0 0h10v-12h-10zM20 0h10v-12h-10zM0 40h10v-12h-10zM20 40h10v-12h-10z '%3E%3C/path%3E%3Cpath fill='rgba(226, 232, 240,1)' d='M10 20h10v-20h-10zM30 20h10v-20h-10z'%3E%3C/path%3E%3C/pattern%3E%3Cfilter id='filter1pattern'%3E%3CfeTurbulence baseFrequency='0.1' numOctaves='2' result='result1' type='fractalNoise'%3E%3C/feTurbulence%3E%3CfeDisplacementMap in2='result1' scale='1' result='result2' xChannelSelector='R' in='SourceGraphic'%3E%3C/feDisplacementMap%3E%3CfeComposite in2='result2' in='SourceGraphic' operator='atop' result='fbSourceGraphic'%3E%3C/feComposite%3E%3C/filter%3E%3C/defs%3E%3Crect fill='url(%23pattern)' height='100%25' width='100%25'%3E%3C/rect%3E%3C/svg%3E");
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", "Raleway", Helvetica, Arial, sans-serif;
+    font-weight: 300;
+}
+.content-container {    
+    background-color: #f1f1f1;
+    border: 12px solid var(--base-color);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto 4rem;
+    min-height: 100vh;
+    max-width: 80vw;
+    padding: 1.25rem 1.75rem;
+}
+h1 {
+    font-size: 4rem;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+}
+h3 {
+    font-size: 1.5rem;
+}
+/*TITLE STYLES */
+.title-container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    height: 4rem;
+    margin: 1rem auto 1.5rem;
+    max-width: 80vw;
+    justify-content: space-between;
+}
+.title-content{
+    margin: 0 1.5rem;
+}
+.title-line {
+    background-color: var(--base-color);
+    height: 1rem;
+    flex: 1 1 auto;
+}
+
+/* SECTION STYLES */
+.drink-section {
+    margin-bottom: 1.25rem;
+}
+.drink-listing {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+.drink-listing-line {
+    background-color: var(--base-color);
+    margin-right: 0.75rem;
+    width: 0.5rem;
+}
+
+.gin .drink-listing-line {
+    background-color: var(--color-gin);
+}
+
+.vodka .drink-listing-line {
+    background-color: var(--color-vodka);
+}
+
+.tequila .drink-listing-line {
+    background-color: var(--color-tequila);
+}
+
+.whisky .drink-listing-line {
+    background-color: var(--color-whisky);
+}
+
+.drink-listing-content {
+    padding: 0.15rem 0; 
+}
+.drink-title {
+    margin-bottom: 0.5rem;
+}
+.drink-description {
+    font-size: 0.85rem;
+}
+
+.drink-header {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.drink-header h2 {
+    margin: 0 1rem;
+}
+.drink-header-line {
+    height: 1rem;
+    background-color: black;
+    flex: 1 1 auto;
+}
+
+#gin-header .drink-header-line {
+    background-color: var(--color-gin);
+}
+#vodka-header .drink-header-line {
+    background-color: var(--color-vodka);
+}
+
+#tequila-header .drink-header-line {
+    background-color: var(--color-tequila);;
+}
+
+#whisky-header .drink-header-line {
+    background-color: var(--color-whisky);;
+}
+
+@media (max-width: 980px) {
+    h1 {
+        font-size: 3rem;
+    }
+    .content-container {
+        max-width: 85vw;
+        padding: 0.5rem 0.75rem;
+    }
+    .title-container {
+        max-width: 85vw;
+    }
+}
