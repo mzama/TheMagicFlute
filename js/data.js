@@ -52,7 +52,7 @@ data = [
     {
         "title": "vodka",
         "description": "absolut",
-        "type": "gin"
+        "type": "vodka"
     }, 
     {
         "title": "margarita",
@@ -106,7 +106,7 @@ data = [
     },
     {
         "title": "brandy",
-        "description": "brandy",
+        "description": "chemineaud",
         "type": "whisky"
     },
     {
