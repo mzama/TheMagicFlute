@@ -15,6 +15,6 @@ function makeTemplate(_title, _description, _type) {
 
 document.addEventListener("DOMContentLoaded", function() {
     data.forEach(e => {
-        
+        document.querySelector(`#${e.type}-list`).innerHTML += makeTemplate(e.title, e.description, e.type);
     });     
 });

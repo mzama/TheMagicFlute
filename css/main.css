@@ -89,22 +89,27 @@ h3 {
     background-color: var(--color-tequila);
 }
 
-#rum-listing .drink-listing-line {
+.rum .drink-listing-line {
     background-color: var(--color-rum);;
 }
 
-#whisky-header .drink-header-line {
+.whisky .drink-listing-line {
     background-color: var(--color-whisky);;
 }
 
+.other .drink-listing-line {
+    background-color: var(--base-color);
+}
+
 .drink-listing-content {
-    padding: 0.15rem 0; 
+    padding: 0.33rem 0; 
 }
 .drink-title {
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 .drink-description {
     font-size: 0.85rem;
+    font-style: italic;
 }
 
 .drink-header {
@@ -139,6 +144,10 @@ h3 {
 
 #whisky-header .drink-header-line {
     background-color: var(--color-whisky);;
+}
+
+#other-header .drink-header-line {
+    background-color: var(--base-color);
 }
 
 @media (max-width: 980px) {
