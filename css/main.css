@@ -70,6 +70,10 @@ h3 {
     display: flex;
     flex-direction: row;
     margin-bottom: 1rem;
+    transition: 0.25s ease-in-out all;
+}
+.drink-listing:hover {
+    background-color: rgba(0,0,0,0.2);
 }
 .drink-listing-line {
     background-color: var(--base-color);
