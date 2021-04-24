@@ -13,6 +13,8 @@ function makeTemplate(_title, _description, _type) {
     return _template;
 }
 
-document.addEventListener("DOMContentLoaded", function() {   
-   document.querySelector("#gin-list").innerHTML += makeTemplate("Negroni", "Gin, Campari, Soda", "gin"); 
+document.addEventListener("DOMContentLoaded", function() {
+    data.forEach(e => {
+        
+    });     
 });

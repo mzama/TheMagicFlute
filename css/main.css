@@ -3,6 +3,7 @@
     --color-gin: #5b6d36;
     --color-vodka: #a4c4ca;
     --color-tequila: #c6ecb9;
+    --color-rum: #eace9a;
     --color-whisky: #632517;
     --base-color: #545454;
 }
@@ -88,8 +89,12 @@ h3 {
     background-color: var(--color-tequila);
 }
 
-.whisky .drink-listing-line {
-    background-color: var(--color-whisky);
+#rum-listing .drink-listing-line {
+    background-color: var(--color-rum);;
+}
+
+#whisky-header .drink-header-line {
+    background-color: var(--color-whisky);;
 }
 
 .drink-listing-content {
@@ -128,6 +133,10 @@ h3 {
     background-color: var(--color-tequila);;
 }
 
+#rum-header .drink-header-line {
+    background-color: var(--color-rum);;
+}
+
 #whisky-header .drink-header-line {
     background-color: var(--color-whisky);;
 }
@@ -142,5 +151,8 @@ h3 {
     }
     .title-container {
         max-width: 85vw;
+    }
+    .drink-header-line, .title-line {
+        height: 0.75rem;
     }
 }
