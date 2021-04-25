@@ -118,7 +118,12 @@ data = [
         "title": "whisky",
         "description": "canadian club",
         "type": "whisky"
-    }, 
+    },
+    {
+        "title": "maple whisky",
+        "description": "sortilege",
+        "type": "whisky"
+    },   
     {
         "title": "scotch",
         "description": "suntory",
@@ -149,4 +154,9 @@ data = [
         "description": "audaz cabarnet sauvignon",
         "type": "other"
     }, 
+    {
+        "title": "absinthe",
+        "description": "mountain gnome",
+        "type": "other"
+    }
 ]
