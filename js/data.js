@@ -75,7 +75,7 @@ data = [
         "type": "rum"
     },
     {
-        "title": "lighth & stormy",
+        "title": "light & stormy",
         "description": "bacardi, ginger beer, lime juice",
         "type": "rum"
     }, 
